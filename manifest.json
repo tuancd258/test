@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Reload Notification",
+    "version": "1.0",
+    "description": "Notifies you when the page is reloaded.",
+    "permissions": ["tabs", "notifications"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
